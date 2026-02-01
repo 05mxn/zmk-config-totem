@@ -11,7 +11,7 @@
 /* Global override for standard Mod-Taps */
 &mt {
     quick-tap-ms = <100>;
-    require-prior-idle-ms = <150>;
+    require-prior-idle-ms = <80>;
     flavor = "tap-preferred";
     tapping-term-ms = <170>;
 };
@@ -23,9 +23,9 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS_PINKY";
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
-            quick-tap-ms = <175>;
-            require-prior-idle-ms = <150>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <100>;
+            require-prior-idle-ms = <80>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
